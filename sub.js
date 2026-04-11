@@ -3,7 +3,6 @@ import { SubBots } from "meowsab";
 async function sub(client) {
  
   global.subBots = new SubBots(client.commandSystem);
-
   const { config } = client;
 
   await global.subBots.setConfig({
