@@ -53,6 +53,6 @@ handler.command = ["انذار", "تحذير", "warn"];
 handler.usage = ['انذار'];
 handler.category = "admin";
 handler.admin = true;
-hanfler.botAdmin = true
+handler.botAdmin = true
 
 export default handler;
